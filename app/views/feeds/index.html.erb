@@ -1,0 +1,219 @@
+<%= render "shared/pubnav" %>
+
+<div class="container">
+    <div class="row g-5">
+        <div class="col-md-3 ">
+            <div class="position-sticky  " style="top: 4.9rem;">
+                <div class="p-3 mb-3 bg-light rounded">
+                    <img src="https://github.com/mdo.png" width="90" height="90" class="rounded-circle mx-auto d-block" alt="Profile Image">
+                    <h5 class="fst-bold text-center mt-2 haad"><a href="#profile_link"><i title="Copy Profile Link" class="bi bi-link-45deg text-success me-3"></i></a>John Smith<i class="bi bi-gear-wide-connected text-success ms-3 clk"></i></h5>
+                    <div class="row mt-3">
+                        <div class="col text-center ghh">
+                            <div>Posts <br> <small class="fw-bold text-success">362</small></div>
+                        </div>
+
+                        <div class="col text-center ghh">
+                            <div>Following <br> <small class="fw-bold text-success">32</small></div>
+                        </div>
+
+                        <div class="col text-center ghh">
+                            <div>Followers <br> <small class="fw-bold text-success">362.2k</small></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 mb-3 bg-light rounded">
+                    <h5 class="fst-bold haad">Bio</h5>
+                    <div class="d-block link-dark text-decoration-none mb-2" id="" aria-expanded="false">
+                        <p class=" fw-light haad">Lorem ipsum dolor, sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. consectetur adipisicing elit. Odio fuga delectus pariatur. </p>
+                    </div>
+
+                </div>
+
+
+                <div class="p-4 mb-3 bg-light rounded">
+                    <h5 class="fst-bold border-bottom haad">Trending</h5>
+                    <div class="d-block link-dark text-decoration-none mb-2" id="" aria-expanded="false">
+                        <small class=" fw-bold "> <a class="text-decoration-none text-success" href="#">#Shidibalabala</a> </small>
+                    </div>
+                    <div class="d-block link-dark text-decoration-none mb-2" id="" aria-expanded="false">
+                        <small class=" fw-bold "> <a class="text-decoration-none text-success" href="#">#TwitterBan</a> </small>
+                    </div>
+                    <div class="d-block link-dark text-decoration-none mb-2" id="" aria-expanded="false">
+                        <small class=" fw-bold "> <a class="text-decoration-none text-success" href="#">#Technology</a> </small>
+                    </div>
+                    <div class="d-block link-dark text-decoration-none mb-2" id="" aria-expanded="false">
+                        <small class=" fw-bold "> <a class="text-decoration-none text-success" href="#">#Mecedes-Benz</a> </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <button type="button" class="btn btn-outline-success btn-sm mb-3 ps-4 pe-4 postBtn"><i class="bi bi-brush"></i> New Post</button>
+
+            <div id="fform" class="d-none">
+                <form action="" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <textarea class="form-control tty" placeholder="What's on your mind..." id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="row" id="img-preview">
+
+                    </div>
+                    <button type="submit" class="btn btn-outline-success btn-sm mb-3 ps-4 pe-4">Post</button>
+                    <label for="img-s" class="float-end"><i class="bi bi-image text-success fs-5 clk"></i></label>
+                    <input type="file" name="" id="img-s" style="display:none;" multiple accept="image/*">
+                </form>
+            </div>
+
+
+            <article class="blog-post">
+                <div class="d-block link-dark text-decoration-none " id="dropdownUser2" data-bs-toggle="" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="img" class="rounded-circle" width="32" height="32"> <small class="text-success fw-bold"> <a class="text-decoration-none text-success" href="#">John Smith</a> <i title="Verified Profile" class="bi bi-patch-check-fill"></i> <span class="text-muted">@Johnsmith22</span></small>
+                    <span class="flex-shrink-0 dropdown float-end">
+                        <a href="#" class="d-block link-dark text-decoration-none zindex-dropdown  haad" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-three-dots-vertical "></i>
+                        </a>
+                        <ul class="dropdown-menu text-small pull-left shadow" aria-labelledby="dropdownUser2">
+                            <li><a class="dropdown-item" href="#">New project...</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </span>
+                </div>
+                <div class="msl">
+                    <img src="https://images.unsplash.com/photo-1606787947360-4181fe0ab58c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="img-fluid rounded mt-3 mb-2" alt="image">
+                    <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                    <p class="d-block">
+                        <i class="bi bi-eye fs-5"></i> <small class="fss me-2">326k</small>
+                        <i class="bi bi-heart fs clk ms-4"></i> <small class="fss">12.6k</small>
+                        <i class="bi bi-chat-right-dots fs ms-4 clk"></i><small class="fss"> 12</small>
+                        <i class="bi bi-share fs ms-4 clk"></i>
+                        <i class="bi bi-bookmark-plus fs float-end me-3 clk"></i>
+                    </p>
+
+                </div>
+                <hr>
+
+                <div class="d-block link-dark text-decoration-none " id="dropdownUser2" data-bs-toggle="" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="img" class="rounded-circle" width="32" height="32"> <small class="text-success fw-bold"> Kate Banes <span class="text-muted">@Johnsmith22</span></small>
+                </div>
+                <div class="msl">
+                    <img src="https://images.unsplash.com/photo-1595265184704-637d01f03df4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded mt-3 mb-2" alt="image">
+                    <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                    <p class="d-block">
+                        <i class="bi bi-eye fs-5"></i> <small class="fss me-2">326k</small>
+                        <i class="bi bi-heart fs clk ms-4"></i> <small class="fss">12.6k</small>
+                        <i class="bi bi-chat-right-dots fs ms-4 clk"></i><small class="fss"> 12</small>
+                        <i class="bi bi-share fs ms-4 clk"></i>
+                        <i class="bi bi-bookmark-plus fs float-end me-3 clk"></i>
+                    </p>
+
+                </div>
+                <hr>
+
+                <div class="d-block link-dark text-decoration-none " id="dropdownUser2" data-bs-toggle="" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="img" class="rounded-circle" width="32" height="32"> <small class="text-success fw-bold"> James Brand <span class="text-muted">@Johnsmith22</span></small>
+                </div>
+                <div class="msl">
+                    <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                    <p class="d-block">
+                        <i class="bi bi-eye fs-5"></i> <small class="fss me-2">326k</small>
+                        <i class="bi bi-heart fs clk ms-4"></i> <small class="fss">12.6k</small>
+                        <i class="bi bi-chat-right-dots fs ms-4 clk"></i><small class="fss"> 12</small>
+                        <i class="bi bi-share fs ms-4 clk"></i>
+                        <i class="bi bi-bookmark-plus fs float-end me-3 clk"></i>
+                    </p>
+
+                </div>
+                <hr>
+
+                <div class="d-block link-dark text-decoration-none " id="dropdownUser2" data-bs-toggle="" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="img" class="rounded-circle" width="32" height="32"> <small class="text-success fw-bold"> Matthew Scott <i title="Verified Profile" class="bi bi-patch-check-fill"></i> <span class="text-muted">@Johnsmith22</span></small>
+                </div>
+                <div class="msl">
+                    <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                    <p class="d-block">
+                        <i class="bi bi-eye fs-5"></i> <small class="fss me-2">326k</small>
+                        <i class="bi bi-heart fs clk ms-4"></i> <small class="fss">12.6k</small>
+                        <i class="bi bi-chat-right-dots fs ms-4 clk"></i><small class="fss"> 12</small>
+                        <i class="bi bi-share fs ms-4 clk"></i>
+                        <i class="bi bi-bookmark-plus fs float-end me-3 clk"></i>
+                    </p>
+
+                </div>
+                <hr>
+
+                <div class="d-block link-dark text-decoration-none " id="dropdownUser2" data-bs-toggle="" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="img" class="rounded-circle" width="32" height="32"> <small class="text-success fw-bold"> Mike Dane <span class="text-muted">@mike_dane</span></small>
+                </div>
+                <div class="msl">
+                    <img src="https://images.unsplash.com/photo-1622495725836-e06fe8ffa7fc?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=784&q=80" class="img-fluid rounded mt-3 mb-2" alt="image">
+                    <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                    <p class="d-block">
+                        <i class="bi bi-eye fs-5"></i> <small class="fss me-2">326k</small>
+                        <i class="bi bi-heart fs clk ms-4"></i> <small class="fss">12.6k</small>
+                        <i class="bi bi-chat-right-dots fs ms-4 clk"></i><small class="fss"> 12</small>
+                        <i class="bi bi-share fs ms-4 clk"></i>
+                        <i class="bi bi-bookmark-plus fs float-end me-3 clk"></i>
+                    </p>
+
+                </div>
+                <hr>
+
+
+
+
+            </article>
+
+        </div>
+
+        <div class="col-md-3">
+            <div class="position-sticky" style="top: 4.9rem;">
+                <div class="p-2 mb-3 bg-light rounded">
+                    <h5 class="fst-bold border-bottom haad mb-3">Who to follow</h5>
+                    <div class="d-block link-dark  mb-3" id="" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="img" class="rounded-circle" width="25" height="25"> <small class=" fw-bold "> <a class="text-decoration-none text-success" title="@johnsmith22" href="#">John Smith</a> </small><a class="float-end text-decoration-none fw-bold lnk" href="#"><small>Follow</small></a>
+                    </div>
+
+                    <div class="d-block link-dark mb-3" id="" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="img" class="rounded-circle" width="25" height="25"> <small class=" fw-bold "> <a class="text-decoration-none text-success" title="@Adangrants_1" href="#">Adan Grants</a> </small><a class="float-end text-decoration-none fw-bold lnk" href="#"><small>Follow</small></a>
+                    </div>
+
+                    <div class="d-block link-dark mb-3" id="" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="img" class="rounded-circle" width="25" height="25"> <small class=" fw-bold "> <a class="text-decoration-none text-success" title="@fletchJr" href="#">Fletcher Jr</a> </small><a class="float-end text-decoration-none fw-bold lnk" href="#"><small>Follow</small></a>
+                    </div>
+
+                    <div class="d-block link-dark mb-3" id="" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="img" class="rounded-circle" width="25" height="25"> <small class=" fw-bold "> <a class="text-decoration-none text-success" title="@tom_woods" href="#">Tom Woods</a> </small><a class="float-end text-decoration-none fw-bold lnk" href="#"><small>Follow</small></a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+
+<script>
+    document.querySelectorAll(".postBtn").forEach(element => {
+        element.addEventListener("click", (event) => {
+            let textDiv = document.getElementById('fform');
+            textDiv.classList = textDiv.classList[0] == 'd-none' ? 'd-block' : 'd-none';
+        });
+    })
+    document.getElementById('img-s').addEventListener('change', (event) => {
+        files = event.currentTarget.files;
+        // if(files.length > 4) return;
+        for (var i = 0; i < files.length; i++) {
+            
+            document.getElementById('img-preview').innerHTML += `<div class='col-3'><img src="${URL.createObjectURL(files[i])}" class="img-fluid"></div>`
+        }
+    });
+</script>
