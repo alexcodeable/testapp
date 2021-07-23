@@ -1,5 +1,4 @@
 <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
     <div class="row align-items-center g-lg-5 py-5">
         <div class="col-lg-7 text-center text-lg-start">
             <h1 class="display-4 fw-bold lh-1 mb-3 text-success haad">Welcome to Feeds, All things trending</h1>
@@ -7,6 +6,7 @@
         </div>
         <div class="col-md-10 mx-auto col-lg-5">
             <div class="p-4 p-md-5 border rounded-3 bg-light">
+        <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
                 <div class="form-floating mb-3">
                     <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control", id: "floatingInput", placeholder: "Email Address/ Username" %>
                     <label for="floatingInput">Email address/ Username</label>
